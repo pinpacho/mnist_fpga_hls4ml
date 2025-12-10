@@ -1,0 +1,4 @@
+model,path,exists,filesize_bytes,loaded,params_count,weights_total,weights_zeros,sparsity_fraction,eval_loss,eval_accuracy,inference_time_total_s,inference_time_per_sample_ms
+student,models/CNN/studentModelMnistCNN.h5,True,273720,True,58474,58474,29160,0.4986831754283955,0.3627268075942993,0.8927000164985657,1.8419904708862305,0.18419904708862306
+teacher,models/CNN/teacherModelMnistCNN.h5,True,2764184,True,225990,225990,3,1.3274923669188902e-05,0.07052384316921234,0.989300012588501,0.782423734664917,0.0782423734664917
+teacher_qat,models/CNN/teacherModelQATMnistCNN.h5,True,1419120,True,112774,112774,0,0.0,0.11658638715744019,0.972599983215332,1.610774278640747,0.16107742786407472

@@ -1,0 +1,4 @@
+model,path,exists,filesize_bytes,loaded,params_count,weights_total,weights_zeros,sparsity_fraction,eval_loss,eval_accuracy,inference_time_total_s,inference_time_per_sample_ms
+student,models/MLP/studentModelMnistMLP.h5,True,234392,True,52650,52650,26272,0.4989933523266857,0.396953821182251,0.8848000168800354,0.29718780517578125,0.029718780517578126
+teacher,models/MLP/teacherModelMnistMLP.h5,True,1305936,True,105990,105990,0,0.0,0.1651110202074051,0.9674999713897705,0.14801454544067383,0.014801454544067384
+teacher_qat,models/MLP/teacherModelQATMnistMLP.h5,True,1312488,True,105990,105990,0,0.0,0.4422934949398041,0.8787000179290771,0.32225942611694336,0.032225942611694335

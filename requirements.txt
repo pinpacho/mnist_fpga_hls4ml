@@ -1,6 +1,5 @@
 absl-py==1.4.0
 appdirs==1.4.4
-array_record==0.8.3
 asttokens==3.0.0
 astunparse==1.6.3
 attrs==25.3.0
