@@ -87,3 +87,7 @@ pytestdebug.log
 *.env
 .env.*
 *.sqlite3
+
+mf_env/
+
+vitis_mnist*/
