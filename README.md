@@ -26,7 +26,7 @@ Clona el repositorio
 git clone https://github.com/pinpacho/mnist_fpga_hls4ml.git
 ```
 
-Crea un entorno virtual, se recomienda usar la version de *python =3.11.9*
+Crea un entorno virtual con anaconda, se recomienda usar la version de *python =3.11.9*
 
 ```sh
 
